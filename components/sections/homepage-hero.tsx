@@ -11,12 +11,11 @@ export const HomepageHero = () => (
       variant="secondary"
       size="small"
     >
-      <span>Linear 2022 Release – Built for scale</span>{" "}
-      <Highlight>→</Highlight>
+      <span>Over 523,731 pictures created</span>
     </Button>
     <HeroTitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
-      Linear is a better way
-      <br className="hidden md:block" /> to build products
+      Professional Pictures
+      <br className="hidden md:block" /> with AI in minutes
     </HeroTitle>
     <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
       Meet the new standard for modern software development.
@@ -35,5 +34,6 @@ export const HomepageHero = () => (
       </Highlight>
     </Button>
     <HeroImage />
+    // add images example component here
   </Hero>
 );
